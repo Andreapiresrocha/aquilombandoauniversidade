@@ -1,0 +1,1184 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_10db37f1c8b507e7de39a88829dbc9fa {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_10db37f1c8b507e7de39a88829dbc9fa" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_10db37f1c8b507e7de39a88829dbc9fa = L.map(
+                "map_10db37f1c8b507e7de39a88829dbc9fa",
+                {
+                    center: [0.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4d49191c48c00cc5aa607b1d653624e6 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_10db37f1c8b507e7de39a88829dbc9fa);
+        
+    
+            var marker_cluster_7d2e5606b5eb745cf28ec07ee0cf86b4 = L.markerClusterGroup(
+                {}
+            );
+            map_10db37f1c8b507e7de39a88829dbc9fa.addLayer(marker_cluster_7d2e5606b5eb745cf28ec07ee0cf86b4);
+        
+    
+            var marker_4c827d142e5927d55e863d561e71b7b6 = L.marker(
+                [36.75, 3.04],
+                {}
+            ).addTo(marker_cluster_7d2e5606b5eb745cf28ec07ee0cf86b4);
+        
+    
+        var popup_f9066c941bc922f510b0f1b1c0a08edd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dab5272290821e5dcd7d35387ea8b7e5 = $(`<div id="html_dab5272290821e5dcd7d35387ea8b7e5" style="width: 100.0%; height: 100.0%;"><b>Frantz Fanon</b><br><i>Martinica/Argélia</i><br>Psiquiatra e filósofo anticolonial; autor de 'Pele Negra, Máscaras Brancas' e 'Os Condenados da Terra'.</div>`)[0];
+            popup_f9066c941bc922f510b0f1b1c0a08edd.setContent(html_dab5272290821e5dcd7d35387ea8b7e5);
+        
+
+        marker_4c827d142e5927d55e863d561e71b7b6.bindPopup(popup_f9066c941bc922f510b0f1b1c0a08edd)
+        ;
+
+        
+    
+    
+            marker_4c827d142e5927d55e863d561e71b7b6.bindTooltip(
+                `<div>
+                     Frantz Fanon
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8a6a1c754c47d510e31d89eb2372eaa3 = L.marker(
+                [11.8, -15.18],
+                {}
+            ).addTo(marker_cluster_7d2e5606b5eb745cf28ec07ee0cf86b4);
+        
+    
+        var popup_255849f8c2612578d1922469980ab44f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf6fb518f259db670943268ef7d23c8d = $(`<div id="html_bf6fb518f259db670943268ef7d23c8d" style="width: 100.0%; height: 100.0%;"><b>Amílcar Cabral</b><br><i>Guiné-Bissau</i><br>Defensor da reafricanização das mentes e da independência dos povos africanos.</div>`)[0];
+            popup_255849f8c2612578d1922469980ab44f.setContent(html_bf6fb518f259db670943268ef7d23c8d);
+        
+
+        marker_8a6a1c754c47d510e31d89eb2372eaa3.bindPopup(popup_255849f8c2612578d1922469980ab44f)
+        ;
+
+        
+    
+    
+            marker_8a6a1c754c47d510e31d89eb2372eaa3.bindTooltip(
+                `<div>
+                     Amílcar Cabral
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_00ffb648b982fd0b21ae4ca81f5166d6 = L.marker(
+                [3.87, 11.5],
+                {}
+            ).addTo(marker_cluster_7d2e5606b5eb745cf28ec07ee0cf86b4);
+        
+    
+        var popup_35308fa60298c6b7e7ae4b93705778f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6b606924622a0d68265d0057757de859 = $(`<div id="html_6b606924622a0d68265d0057757de859" style="width: 100.0%; height: 100.0%;"><b>Achille Mbembe</b><br><i>Camarões</i><br>Filósofo político; criador dos conceitos de necropolítica e afropolitanismo.</div>`)[0];
+            popup_35308fa60298c6b7e7ae4b93705778f3.setContent(html_6b606924622a0d68265d0057757de859);
+        
+
+        marker_00ffb648b982fd0b21ae4ca81f5166d6.bindPopup(popup_35308fa60298c6b7e7ae4b93705778f3)
+        ;
+
+        
+    
+    
+            marker_00ffb648b982fd0b21ae4ca81f5166d6.bindTooltip(
+                `<div>
+                     Achille Mbembe
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_804774d9ac72590c4eb879a7483cb1b4 = L.marker(
+                [-1.29, 36.82],
+                {}
+            ).addTo(marker_cluster_7d2e5606b5eb745cf28ec07ee0cf86b4);
+        
+    
+        var popup_3ac8b2b8bed110d61c0ada349c6fd06c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_458778b62566ea5fb8099d2bc2392f4a = $(`<div id="html_458778b62566ea5fb8099d2bc2392f4a" style="width: 100.0%; height: 100.0%;"><b>Ngũgĩ wa Thiong’o</b><br><i>Quênia</i><br>Escritor e teórico da descolonização linguística e cultural africana.</div>`)[0];
+            popup_3ac8b2b8bed110d61c0ada349c6fd06c.setContent(html_458778b62566ea5fb8099d2bc2392f4a);
+        
+
+        marker_804774d9ac72590c4eb879a7483cb1b4.bindPopup(popup_3ac8b2b8bed110d61c0ada349c6fd06c)
+        ;
+
+        
+    
+    
+            marker_804774d9ac72590c4eb879a7483cb1b4.bindTooltip(
+                `<div>
+                     Ngũgĩ wa Thiong’o
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_77b09c7a299493480033b034ca145f86 = L.marker(
+                [9.08, 8.68],
+                {}
+            ).addTo(marker_cluster_7d2e5606b5eb745cf28ec07ee0cf86b4);
+        
+    
+        var popup_6dee7a4a43aeb882693e4dce85d8f174 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d2d6ebe778574d13a8bf49d238748386 = $(`<div id="html_d2d6ebe778574d13a8bf49d238748386" style="width: 100.0%; height: 100.0%;"><b>Oyeronke Oyewumi</b><br><i>Nigéria</i><br>Socióloga; crítica ao feminismo ocidental por universalizar categorias de gênero.</div>`)[0];
+            popup_6dee7a4a43aeb882693e4dce85d8f174.setContent(html_d2d6ebe778574d13a8bf49d238748386);
+        
+
+        marker_77b09c7a299493480033b034ca145f86.bindPopup(popup_6dee7a4a43aeb882693e4dce85d8f174)
+        ;
+
+        
+    
+    
+            marker_77b09c7a299493480033b034ca145f86.bindTooltip(
+                `<div>
+                     Oyeronke Oyewumi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_28dfe9a217e107aef30bc5c2e6b26148 = L.marker(
+                [-25.96, 32.58],
+                {}
+            ).addTo(marker_cluster_7d2e5606b5eb745cf28ec07ee0cf86b4);
+        
+    
+        var popup_027271943c98ec760bc73ec2f72e6aae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6db093ddc5a66a12bbdf8ba6fbda5723 = $(`<div id="html_6db093ddc5a66a12bbdf8ba6fbda5723" style="width: 100.0%; height: 100.0%;"><b>José Paulino Castiano</b><br><i>Moçambique</i><br>Teólogo e filósofo; atua com direitos humanos e epistemologias africanas.</div>`)[0];
+            popup_027271943c98ec760bc73ec2f72e6aae.setContent(html_6db093ddc5a66a12bbdf8ba6fbda5723);
+        
+
+        marker_28dfe9a217e107aef30bc5c2e6b26148.bindPopup(popup_027271943c98ec760bc73ec2f72e6aae)
+        ;
+
+        
+    
+    
+            marker_28dfe9a217e107aef30bc5c2e6b26148.bindTooltip(
+                `<div>
+                     José Paulino Castiano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_61420455a87088693d047a6f3d538da6 = L.marker(
+                [-8.84, 13.23],
+                {}
+            ).addTo(marker_cluster_7d2e5606b5eb745cf28ec07ee0cf86b4);
+        
+    
+        var popup_f6a15d3acd5b71b36a7f0a5b709a8f8f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3696a4c643b73b80971da79075a92805 = $(`<div id="html_3696a4c643b73b80971da79075a92805" style="width: 100.0%; height: 100.0%;"><b>José Eduardo Agualusa</b><br><i>Angola</i><br>Escritor que aborda história, identidade e memória angolana.</div>`)[0];
+            popup_f6a15d3acd5b71b36a7f0a5b709a8f8f.setContent(html_3696a4c643b73b80971da79075a92805);
+        
+
+        marker_61420455a87088693d047a6f3d538da6.bindPopup(popup_f6a15d3acd5b71b36a7f0a5b709a8f8f)
+        ;
+
+        
+    
+    
+            marker_61420455a87088693d047a6f3d538da6.bindTooltip(
+                `<div>
+                     José Eduardo Agualusa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a94d987d13549175aa28b3dca5bc1166 = L.marker(
+                [5.56, -0.2],
+                {}
+            ).addTo(marker_cluster_7d2e5606b5eb745cf28ec07ee0cf86b4);
+        
+    
+        var popup_4f225f32c3a4a671dadeaced35311727 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b7d9705b80e9a7064d33d49a261fa23a = $(`<div id="html_b7d9705b80e9a7064d33d49a261fa23a" style="width: 100.0%; height: 100.0%;"><b>Kwame Anthony Appiah</b><br><i>Gana/Reino Unido</i><br>Filósofo do cosmopolitismo e ética pós-colonial.</div>`)[0];
+            popup_4f225f32c3a4a671dadeaced35311727.setContent(html_b7d9705b80e9a7064d33d49a261fa23a);
+        
+
+        marker_a94d987d13549175aa28b3dca5bc1166.bindPopup(popup_4f225f32c3a4a671dadeaced35311727)
+        ;
+
+        
+    
+    
+            marker_a94d987d13549175aa28b3dca5bc1166.bindTooltip(
+                `<div>
+                     Kwame Anthony Appiah
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_be89fe07cf3064c67a7ee9ea936a6c67 = L.marker(
+                [-12.04, -77.03],
+                {}
+            ).addTo(marker_cluster_7d2e5606b5eb745cf28ec07ee0cf86b4);
+        
+    
+        var popup_3b98523810844963eae0cd1292cd971d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eaa4958f293f2e1454db5d656ed84d3b = $(`<div id="html_eaa4958f293f2e1454db5d656ed84d3b" style="width: 100.0%; height: 100.0%;"><b>Aníbal Quijano</b><br><i>Peru</i><br>Sociólogo; formulador da colonialidade do poder.</div>`)[0];
+            popup_3b98523810844963eae0cd1292cd971d.setContent(html_eaa4958f293f2e1454db5d656ed84d3b);
+        
+
+        marker_be89fe07cf3064c67a7ee9ea936a6c67.bindPopup(popup_3b98523810844963eae0cd1292cd971d)
+        ;
+
+        
+    
+    
+            marker_be89fe07cf3064c67a7ee9ea936a6c67.bindTooltip(
+                `<div>
+                     Aníbal Quijano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_769cea8967fabd3f9f5befdfd77d518d = L.marker(
+                [-34.6, -58.38],
+                {}
+            ).addTo(marker_cluster_7d2e5606b5eb745cf28ec07ee0cf86b4);
+        
+    
+        var popup_1dc9120c849e1109ad0742e30725f40c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa02b462297feb5e27485db9e639c628 = $(`<div id="html_fa02b462297feb5e27485db9e639c628" style="width: 100.0%; height: 100.0%;"><b>Walter Mignolo</b><br><i>Argentina</i><br>Teórico decolonial; desenvolveu a epistemologia fronteiriça.</div>`)[0];
+            popup_1dc9120c849e1109ad0742e30725f40c.setContent(html_fa02b462297feb5e27485db9e639c628);
+        
+
+        marker_769cea8967fabd3f9f5befdfd77d518d.bindPopup(popup_1dc9120c849e1109ad0742e30725f40c)
+        ;
+
+        
+    
+    
+            marker_769cea8967fabd3f9f5befdfd77d518d.bindTooltip(
+                `<div>
+                     Walter Mignolo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_96f908bab3032d90709a8dae0a81aeea = L.marker(
+                [18.22, -66.46],
+                {}
+            ).addTo(marker_cluster_7d2e5606b5eb745cf28ec07ee0cf86b4);
+        
+    
+        var popup_d28c11e90888f24752d08498113eff8b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e9bca3adfa9de34ff445a01c99bceb4 = $(`<div id="html_5e9bca3adfa9de34ff445a01c99bceb4" style="width: 100.0%; height: 100.0%;"><b>Ramón Grosfoguel</b><br><i>Porto Rico</i><br>Sociólogo; analisa o sistema-mundo moderno/colonial.</div>`)[0];
+            popup_d28c11e90888f24752d08498113eff8b.setContent(html_5e9bca3adfa9de34ff445a01c99bceb4);
+        
+
+        marker_96f908bab3032d90709a8dae0a81aeea.bindPopup(popup_d28c11e90888f24752d08498113eff8b)
+        ;
+
+        
+    
+    
+            marker_96f908bab3032d90709a8dae0a81aeea.bindTooltip(
+                `<div>
+                     Ramón Grosfoguel
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b3b73caea61f17305e00e54bdc3781d9 = L.marker(
+                [-0.22, -78.51],
+                {}
+            ).addTo(marker_cluster_7d2e5606b5eb745cf28ec07ee0cf86b4);
+        
+    
+        var popup_dea7360ba1ef07c0f34f8aaf4144a40e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_80d0e260b91690d13ca38ea6323307bb = $(`<div id="html_80d0e260b91690d13ca38ea6323307bb" style="width: 100.0%; height: 100.0%;"><b>Catherine Walsh</b><br><i>EUA/Equador</i><br>Educadora e teórica da pedagogia decolonial.</div>`)[0];
+            popup_dea7360ba1ef07c0f34f8aaf4144a40e.setContent(html_80d0e260b91690d13ca38ea6323307bb);
+        
+
+        marker_b3b73caea61f17305e00e54bdc3781d9.bindPopup(popup_dea7360ba1ef07c0f34f8aaf4144a40e)
+        ;
+
+        
+    
+    
+            marker_b3b73caea61f17305e00e54bdc3781d9.bindTooltip(
+                `<div>
+                     Catherine Walsh
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_46778a47556f1c235e613f9daa10f23b = L.marker(
+                [-34.61, -58.38],
+                {}
+            ).addTo(marker_cluster_7d2e5606b5eb745cf28ec07ee0cf86b4);
+        
+    
+        var popup_2dd0f3fc616280943b2899e4dd3d448c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e1d9a1f60893c21913a39d0b7d2625ff = $(`<div id="html_e1d9a1f60893c21913a39d0b7d2625ff" style="width: 100.0%; height: 100.0%;"><b>María Lugones</b><br><i>Argentina/EUA</i><br>Filósofa; criadora do conceito de colonialidade de gênero.</div>`)[0];
+            popup_2dd0f3fc616280943b2899e4dd3d448c.setContent(html_e1d9a1f60893c21913a39d0b7d2625ff);
+        
+
+        marker_46778a47556f1c235e613f9daa10f23b.bindPopup(popup_2dd0f3fc616280943b2899e4dd3d448c)
+        ;
+
+        
+    
+    
+            marker_46778a47556f1c235e613f9daa10f23b.bindTooltip(
+                `<div>
+                     María Lugones
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3f9f64619b77f5c820c27587cade8239 = L.marker(
+                [4.71, -74.07],
+                {}
+            ).addTo(marker_cluster_7d2e5606b5eb745cf28ec07ee0cf86b4);
+        
+    
+        var popup_84b9ff8d223731b82c133af0265b71e8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0808c013930af8053b2c2e07cd8b9a4f = $(`<div id="html_0808c013930af8053b2c2e07cd8b9a4f" style="width: 100.0%; height: 100.0%;"><b>Orlando Fals Borda</b><br><i>Colômbia</i><br>Criador da pesquisa-ação participativa.</div>`)[0];
+            popup_84b9ff8d223731b82c133af0265b71e8.setContent(html_0808c013930af8053b2c2e07cd8b9a4f);
+        
+
+        marker_3f9f64619b77f5c820c27587cade8239.bindPopup(popup_84b9ff8d223731b82c133af0265b71e8)
+        ;
+
+        
+    
+    
+            marker_3f9f64619b77f5c820c27587cade8239.bindTooltip(
+                `<div>
+                     Orlando Fals Borda
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_80f42e3af35ea298c34fd51575e01d28 = L.marker(
+                [-23.55, -46.63],
+                {}
+            ).addTo(marker_cluster_7d2e5606b5eb745cf28ec07ee0cf86b4);
+        
+    
+        var popup_610f732276185f4b9ddda33311ef3bee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f6020ff34718fd10f86bb1fe5ab502f1 = $(`<div id="html_f6020ff34718fd10f86bb1fe5ab502f1" style="width: 100.0%; height: 100.0%;"><b>Raimundo Barreto</b><br><i>Brasil</i><br>Teólogo; atua com teologia negra e descolonização da fé.</div>`)[0];
+            popup_610f732276185f4b9ddda33311ef3bee.setContent(html_f6020ff34718fd10f86bb1fe5ab502f1);
+        
+
+        marker_80f42e3af35ea298c34fd51575e01d28.bindPopup(popup_610f732276185f4b9ddda33311ef3bee)
+        ;
+
+        
+    
+    
+            marker_80f42e3af35ea298c34fd51575e01d28.bindTooltip(
+                `<div>
+                     Raimundo Barreto
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_79837f049f876cc842f72f7e1c37ab6b = L.marker(
+                [-34.61, -58.38],
+                {}
+            ).addTo(marker_cluster_7d2e5606b5eb745cf28ec07ee0cf86b4);
+        
+    
+        var popup_238a5f197e80812141630262511d10aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_396ead2e9e01321755980986c91dd968 = $(`<div id="html_396ead2e9e01321755980986c91dd968" style="width: 100.0%; height: 100.0%;"><b>Verónica Gago</b><br><i>Argentina</i><br>Crítica ao neoliberalismo e defensora do feminismo popular.</div>`)[0];
+            popup_238a5f197e80812141630262511d10aa.setContent(html_396ead2e9e01321755980986c91dd968);
+        
+
+        marker_79837f049f876cc842f72f7e1c37ab6b.bindPopup(popup_238a5f197e80812141630262511d10aa)
+        ;
+
+        
+    
+    
+            marker_79837f049f876cc842f72f7e1c37ab6b.bindTooltip(
+                `<div>
+                     Verónica Gago
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7fb297ced1575a2935017e92e4417ae3 = L.marker(
+                [10.69, -61.22],
+                {}
+            ).addTo(marker_cluster_7d2e5606b5eb745cf28ec07ee0cf86b4);
+        
+    
+        var popup_03e7c9bdfd5d846f5f0bf03232a07de8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a56181a506dc6412806bd6ada2758e1e = $(`<div id="html_a56181a506dc6412806bd6ada2758e1e" style="width: 100.0%; height: 100.0%;"><b>Eric Williams</b><br><i>Trindade e Tobago</i><br>Historiador; demonstrou como a escravidão impulsionou o capitalismo.</div>`)[0];
+            popup_03e7c9bdfd5d846f5f0bf03232a07de8.setContent(html_a56181a506dc6412806bd6ada2758e1e);
+        
+
+        marker_7fb297ced1575a2935017e92e4417ae3.bindPopup(popup_03e7c9bdfd5d846f5f0bf03232a07de8)
+        ;
+
+        
+    
+    
+            marker_7fb297ced1575a2935017e92e4417ae3.bindTooltip(
+                `<div>
+                     Eric Williams
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_60857f249aa178da6d7caa649857fc4c = L.marker(
+                [10.66, -61.51],
+                {}
+            ).addTo(marker_cluster_7d2e5606b5eb745cf28ec07ee0cf86b4);
+        
+    
+        var popup_9a8bac22345351549cdc0252c965361e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8abd6d95f61438f982e61fbe426f91e9 = $(`<div id="html_8abd6d95f61438f982e61fbe426f91e9" style="width: 100.0%; height: 100.0%;"><b>C.L.R. James</b><br><i>Trindade e Tobago</i><br>Analisou a Revolução Haitiana como marco anticolonial.</div>`)[0];
+            popup_9a8bac22345351549cdc0252c965361e.setContent(html_8abd6d95f61438f982e61fbe426f91e9);
+        
+
+        marker_60857f249aa178da6d7caa649857fc4c.bindPopup(popup_9a8bac22345351549cdc0252c965361e)
+        ;
+
+        
+    
+    
+            marker_60857f249aa178da6d7caa649857fc4c.bindTooltip(
+                `<div>
+                     C.L.R. James
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_880a318246414e91168b0dc628b5e1be = L.marker(
+                [18.47, -69.9],
+                {}
+            ).addTo(marker_cluster_7d2e5606b5eb745cf28ec07ee0cf86b4);
+        
+    
+        var popup_5ff316bcef54f149d7effc47613c0496 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_63145a946bb07ca603eea2d1022e5886 = $(`<div id="html_63145a946bb07ca603eea2d1022e5886" style="width: 100.0%; height: 100.0%;"><b>Ochy Curiel</b><br><i>República Dominicana/Colômbia</i><br>Feminista lésbica decolonial; crítica à heteronormatividade e racismo.</div>`)[0];
+            popup_5ff316bcef54f149d7effc47613c0496.setContent(html_63145a946bb07ca603eea2d1022e5886);
+        
+
+        marker_880a318246414e91168b0dc628b5e1be.bindPopup(popup_5ff316bcef54f149d7effc47613c0496)
+        ;
+
+        
+    
+    
+            marker_880a318246414e91168b0dc628b5e1be.bindTooltip(
+                `<div>
+                     Ochy Curiel
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_906f86e2d1658a48e1b86eb439d24fd9 = L.marker(
+                [38.72, -9.14],
+                {}
+            ).addTo(marker_cluster_7d2e5606b5eb745cf28ec07ee0cf86b4);
+        
+    
+        var popup_e868c1ff3d769711d5e4c338abe23126 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_664e4adfcdcae8ac9987870b027840dc = $(`<div id="html_664e4adfcdcae8ac9987870b027840dc" style="width: 100.0%; height: 100.0%;"><b>Grada Kilomba</b><br><i>Portugal</i><br>Escritora e crítica da colonialidade e do racismo.</div>`)[0];
+            popup_e868c1ff3d769711d5e4c338abe23126.setContent(html_664e4adfcdcae8ac9987870b027840dc);
+        
+
+        marker_906f86e2d1658a48e1b86eb439d24fd9.bindPopup(popup_e868c1ff3d769711d5e4c338abe23126)
+        ;
+
+        
+    
+    
+            marker_906f86e2d1658a48e1b86eb439d24fd9.bindTooltip(
+                `<div>
+                     Grada Kilomba
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_28f7640d76f608cc3bf31020a71dae6d = L.marker(
+                [40.21, -8.41],
+                {}
+            ).addTo(marker_cluster_7d2e5606b5eb745cf28ec07ee0cf86b4);
+        
+    
+        var popup_991901f79276e1c85807154e8c3c522d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb467489c01479e7560991683fb2e922 = $(`<div id="html_fb467489c01479e7560991683fb2e922" style="width: 100.0%; height: 100.0%;"><b>Boaventura de Sousa Santos</b><br><i>Portugal</i><br>Criador da ecologia de saberes e epistemologia do Sul.</div>`)[0];
+            popup_991901f79276e1c85807154e8c3c522d.setContent(html_fb467489c01479e7560991683fb2e922);
+        
+
+        marker_28f7640d76f608cc3bf31020a71dae6d.bindPopup(popup_991901f79276e1c85807154e8c3c522d)
+        ;
+
+        
+    
+    
+            marker_28f7640d76f608cc3bf31020a71dae6d.bindTooltip(
+                `<div>
+                     Boaventura de Sousa Santos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_16a6669d8753b18f1e961a52f58957d8 = L.marker(
+                [22.57, 88.36],
+                {}
+            ).addTo(marker_cluster_7d2e5606b5eb745cf28ec07ee0cf86b4);
+        
+    
+        var popup_8417c486e70aba127c66c9b0030add10 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b983cf0ce8272d2f810afd0053045884 = $(`<div id="html_b983cf0ce8272d2f810afd0053045884" style="width: 100.0%; height: 100.0%;"><b>Gayatri Chakravorty Spivak</b><br><i>Índia/EUA</i><br>Conhecida pelo ensaio 'Pode o subalterno falar?'</div>`)[0];
+            popup_8417c486e70aba127c66c9b0030add10.setContent(html_b983cf0ce8272d2f810afd0053045884);
+        
+
+        marker_16a6669d8753b18f1e961a52f58957d8.bindPopup(popup_8417c486e70aba127c66c9b0030add10)
+        ;
+
+        
+    
+    
+            marker_16a6669d8753b18f1e961a52f58957d8.bindTooltip(
+                `<div>
+                     Gayatri Chakravorty Spivak
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_99723429663c6f3d7dd5dfa814c71e4a = L.marker(
+                [3.14, 101.69],
+                {}
+            ).addTo(marker_cluster_7d2e5606b5eb745cf28ec07ee0cf86b4);
+        
+    
+        var popup_2ff70b19180158c7ac3732daf4a7e563 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1efee4b89357f889d5492c40d6f97997 = $(`<div id="html_1efee4b89357f889d5492c40d6f97997" style="width: 100.0%; height: 100.0%;"><b>Syed Hussein Alatas</b><br><i>Malásia</i><br>Criador do conceito de mentalidade colonizada.</div>`)[0];
+            popup_2ff70b19180158c7ac3732daf4a7e563.setContent(html_1efee4b89357f889d5492c40d6f97997);
+        
+
+        marker_99723429663c6f3d7dd5dfa814c71e4a.bindPopup(popup_2ff70b19180158c7ac3732daf4a7e563)
+        ;
+
+        
+    
+    
+            marker_99723429663c6f3d7dd5dfa814c71e4a.bindTooltip(
+                `<div>
+                     Syed Hussein Alatas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0afe3872140b948b28024ecebbf143ac = L.marker(
+                [28.61, 77.21],
+                {}
+            ).addTo(marker_cluster_7d2e5606b5eb745cf28ec07ee0cf86b4);
+        
+    
+        var popup_b007abd0af95135342bfa88a90ca7dac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3616fdaccb7ebabd7b8a1bc05f563367 = $(`<div id="html_3616fdaccb7ebabd7b8a1bc05f563367" style="width: 100.0%; height: 100.0%;"><b>Ashis Nandy</b><br><i>Índia</i><br>Crítico do colonialismo e das heranças culturais.</div>`)[0];
+            popup_b007abd0af95135342bfa88a90ca7dac.setContent(html_3616fdaccb7ebabd7b8a1bc05f563367);
+        
+
+        marker_0afe3872140b948b28024ecebbf143ac.bindPopup(popup_b007abd0af95135342bfa88a90ca7dac)
+        ;
+
+        
+    
+    
+            marker_0afe3872140b948b28024ecebbf143ac.bindTooltip(
+                `<div>
+                     Ashis Nandy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0938dc4e6c0c308df1d9e79d61fe7e52 = L.marker(
+                [30.04, 31.23],
+                {}
+            ).addTo(marker_cluster_7d2e5606b5eb745cf28ec07ee0cf86b4);
+        
+    
+        var popup_46193d05e64fb0ed29da549fdcc4d5ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b9d770b1c9f3863088c9c8740a1142ff = $(`<div id="html_b9d770b1c9f3863088c9c8740a1142ff" style="width: 100.0%; height: 100.0%;"><b>Samir Amin</b><br><i>Egito</i><br>Economista e criador da teoria centro-periferia.</div>`)[0];
+            popup_46193d05e64fb0ed29da549fdcc4d5ab.setContent(html_b9d770b1c9f3863088c9c8740a1142ff);
+        
+
+        marker_0938dc4e6c0c308df1d9e79d61fe7e52.bindPopup(popup_46193d05e64fb0ed29da549fdcc4d5ab)
+        ;
+
+        
+    
+    
+            marker_0938dc4e6c0c308df1d9e79d61fe7e52.bindTooltip(
+                `<div>
+                     Samir Amin
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fe0536e958282e99bfcbb6f7151bd0b1 = L.marker(
+                [-22.91, -43.17],
+                {}
+            ).addTo(marker_cluster_7d2e5606b5eb745cf28ec07ee0cf86b4);
+        
+    
+        var popup_dd609f73db928f050a0697c4ea2c3d74 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_607784c9cbec522a8ff10828884e08e1 = $(`<div id="html_607784c9cbec522a8ff10828884e08e1" style="width: 100.0%; height: 100.0%;"><b>Lélia Gonzalez</b><br><i>Brasil</i><br>Formuladora da categoria amefricanidade.</div>`)[0];
+            popup_dd609f73db928f050a0697c4ea2c3d74.setContent(html_607784c9cbec522a8ff10828884e08e1);
+        
+
+        marker_fe0536e958282e99bfcbb6f7151bd0b1.bindPopup(popup_dd609f73db928f050a0697c4ea2c3d74)
+        ;
+
+        
+    
+    
+            marker_fe0536e958282e99bfcbb6f7151bd0b1.bindTooltip(
+                `<div>
+                     Lélia Gonzalez
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c082f5f05051932b8082fcc8fab6e866 = L.marker(
+                [-23.55, -46.63],
+                {}
+            ).addTo(marker_cluster_7d2e5606b5eb745cf28ec07ee0cf86b4);
+        
+    
+        var popup_b12888e787405cc3e89637c28b1c2a3e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e1e6b7135cff7699aa467ba5455a813 = $(`<div id="html_5e1e6b7135cff7699aa467ba5455a813" style="width: 100.0%; height: 100.0%;"><b>Sueli Carneiro</b><br><i>Brasil</i><br>Fundadora do Geledés; referência na luta antirracista.</div>`)[0];
+            popup_b12888e787405cc3e89637c28b1c2a3e.setContent(html_5e1e6b7135cff7699aa467ba5455a813);
+        
+
+        marker_c082f5f05051932b8082fcc8fab6e866.bindPopup(popup_b12888e787405cc3e89637c28b1c2a3e)
+        ;
+
+        
+    
+    
+            marker_c082f5f05051932b8082fcc8fab6e866.bindTooltip(
+                `<div>
+                     Sueli Carneiro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ba3ddfbe55a79dde88595579326cbafa = L.marker(
+                [-23.55, -46.63],
+                {}
+            ).addTo(marker_cluster_7d2e5606b5eb745cf28ec07ee0cf86b4);
+        
+    
+        var popup_f617c3b5675b6e3806872f618dd83710 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa80adaf04b454f2eb1d774629039b0c = $(`<div id="html_fa80adaf04b454f2eb1d774629039b0c" style="width: 100.0%; height: 100.0%;"><b>Silvio Almeida</b><br><i>Brasil</i><br>Autor de 'Racismo Estrutural'; Ministro dos Direitos Humanos.</div>`)[0];
+            popup_f617c3b5675b6e3806872f618dd83710.setContent(html_fa80adaf04b454f2eb1d774629039b0c);
+        
+
+        marker_ba3ddfbe55a79dde88595579326cbafa.bindPopup(popup_f617c3b5675b6e3806872f618dd83710)
+        ;
+
+        
+    
+    
+            marker_ba3ddfbe55a79dde88595579326cbafa.bindTooltip(
+                `<div>
+                     Silvio Almeida
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7b28b0b9e29cb1baa62afab28d945f28 = L.marker(
+                [-9.67, -35.73],
+                {}
+            ).addTo(marker_cluster_7d2e5606b5eb745cf28ec07ee0cf86b4);
+        
+    
+        var popup_6193c8171c9b063516a7c95808b99e93 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f926f51385d514975b02c895a019b36 = $(`<div id="html_1f926f51385d514975b02c895a019b36" style="width: 100.0%; height: 100.0%;"><b>Beatriz Nascimento</b><br><i>Brasil</i><br>Destacou os quilombos como espaços de resistência.</div>`)[0];
+            popup_6193c8171c9b063516a7c95808b99e93.setContent(html_1f926f51385d514975b02c895a019b36);
+        
+
+        marker_7b28b0b9e29cb1baa62afab28d945f28.bindPopup(popup_6193c8171c9b063516a7c95808b99e93)
+        ;
+
+        
+    
+    
+            marker_7b28b0b9e29cb1baa62afab28d945f28.bindTooltip(
+                `<div>
+                     Beatriz Nascimento
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_09d87d89329908c4ebcdf6d0bcfa5f08 = L.marker(
+                [-23.55, -46.63],
+                {}
+            ).addTo(marker_cluster_7d2e5606b5eb745cf28ec07ee0cf86b4);
+        
+    
+        var popup_f124cf85519561b4701a87313ac3e0c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f70372276066dc1315d2f1e6d82be17 = $(`<div id="html_3f70372276066dc1315d2f1e6d82be17" style="width: 100.0%; height: 100.0%;"><b>Clóvis Moura</b><br><i>Brasil</i><br>Pioneiro na historiografia da resistência negra no Brasil.</div>`)[0];
+            popup_f124cf85519561b4701a87313ac3e0c0.setContent(html_3f70372276066dc1315d2f1e6d82be17);
+        
+
+        marker_09d87d89329908c4ebcdf6d0bcfa5f08.bindPopup(popup_f124cf85519561b4701a87313ac3e0c0)
+        ;
+
+        
+    
+    
+            marker_09d87d89329908c4ebcdf6d0bcfa5f08.bindTooltip(
+                `<div>
+                     Clóvis Moura
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_29e5873a3c105caeb45de2d001bcfd67 = L.marker(
+                [-22.9, -43.2],
+                {}
+            ).addTo(marker_cluster_7d2e5606b5eb745cf28ec07ee0cf86b4);
+        
+    
+        var popup_3e8457054a46d9e87cb0f26c14eedd75 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8b45e7e3998edf6ddf54658f7f0e66a3 = $(`<div id="html_8b45e7e3998edf6ddf54658f7f0e66a3" style="width: 100.0%; height: 100.0%;"><b>Katiúscia Ribeiro</b><br><i>Brasil</i><br>Atua no campo da filosofia africana e do feminismo negro.</div>`)[0];
+            popup_3e8457054a46d9e87cb0f26c14eedd75.setContent(html_8b45e7e3998edf6ddf54658f7f0e66a3);
+        
+
+        marker_29e5873a3c105caeb45de2d001bcfd67.bindPopup(popup_3e8457054a46d9e87cb0f26c14eedd75)
+        ;
+
+        
+    
+    
+            marker_29e5873a3c105caeb45de2d001bcfd67.bindTooltip(
+                `<div>
+                     Katiúscia Ribeiro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_72defb14790757f78a477e8768a9e3df = L.marker(
+                [-22.91, -43.17],
+                {}
+            ).addTo(marker_cluster_7d2e5606b5eb745cf28ec07ee0cf86b4);
+        
+    
+        var popup_203407fac0c777671935c86f93def122 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cc6e263ceb4af391a7c08bf6a2f18370 = $(`<div id="html_cc6e263ceb4af391a7c08bf6a2f18370" style="width: 100.0%; height: 100.0%;"><b>Renato Nogueira</b><br><i>Brasil</i><br>Filosofia africana, educação e descolonização do saber.</div>`)[0];
+            popup_203407fac0c777671935c86f93def122.setContent(html_cc6e263ceb4af391a7c08bf6a2f18370);
+        
+
+        marker_72defb14790757f78a477e8768a9e3df.bindPopup(popup_203407fac0c777671935c86f93def122)
+        ;
+
+        
+    
+    
+            marker_72defb14790757f78a477e8768a9e3df.bindTooltip(
+                `<div>
+                     Renato Nogueira
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bbf988c81dd907c2a50d1724cc9133b7 = L.marker(
+                [-23.55, -46.63],
+                {}
+            ).addTo(marker_cluster_7d2e5606b5eb745cf28ec07ee0cf86b4);
+        
+    
+        var popup_13e145b02de6a0e0f29b56a259907b20 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d22a5975487ebc23330bc1f8eea3f9ab = $(`<div id="html_d22a5975487ebc23330bc1f8eea3f9ab" style="width: 100.0%; height: 100.0%;"><b>Cida Bento</b><br><i>Brasil</i><br>Psicóloga e pesquisadora; referência em relações raciais.</div>`)[0];
+            popup_13e145b02de6a0e0f29b56a259907b20.setContent(html_d22a5975487ebc23330bc1f8eea3f9ab);
+        
+
+        marker_bbf988c81dd907c2a50d1724cc9133b7.bindPopup(popup_13e145b02de6a0e0f29b56a259907b20)
+        ;
+
+        
+    
+    
+            marker_bbf988c81dd907c2a50d1724cc9133b7.bindTooltip(
+                `<div>
+                     Cida Bento
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_deb45228e77e43422d8d9b2cdf5d1661 = L.marker(
+                [-23.55, -46.63],
+                {}
+            ).addTo(marker_cluster_7d2e5606b5eb745cf28ec07ee0cf86b4);
+        
+    
+        var popup_3c76b58d9aa463360c9aa2caecc50111 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a78a356e09d309f4ac84297bcc9703f5 = $(`<div id="html_a78a356e09d309f4ac84297bcc9703f5" style="width: 100.0%; height: 100.0%;"><b>Neusa Santos Souza</b><br><i>Brasil</i><br>Autora de 'Tornar-se Negro'; pioneira na psicologia negra.</div>`)[0];
+            popup_3c76b58d9aa463360c9aa2caecc50111.setContent(html_a78a356e09d309f4ac84297bcc9703f5);
+        
+
+        marker_deb45228e77e43422d8d9b2cdf5d1661.bindPopup(popup_3c76b58d9aa463360c9aa2caecc50111)
+        ;
+
+        
+    
+    
+            marker_deb45228e77e43422d8d9b2cdf5d1661.bindTooltip(
+                `<div>
+                     Neusa Santos Souza
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4534998237a551153bec5ec3765e7ed4 = L.marker(
+                [40.0, -75.17],
+                {}
+            ).addTo(marker_cluster_7d2e5606b5eb745cf28ec07ee0cf86b4);
+        
+    
+        var popup_d9b3ff78b074dad3c7ee33a29551185e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3beec098fb4a812b7fad956938373ccf = $(`<div id="html_3beec098fb4a812b7fad956938373ccf" style="width: 100.0%; height: 100.0%;"><b>Molefi Kete Asante</b><br><i>EUA</i><br>Fundador da afrocentricidade.</div>`)[0];
+            popup_d9b3ff78b074dad3c7ee33a29551185e.setContent(html_3beec098fb4a812b7fad956938373ccf);
+        
+
+        marker_4534998237a551153bec5ec3765e7ed4.bindPopup(popup_d9b3ff78b074dad3c7ee33a29551185e)
+        ;
+
+        
+    
+    
+            marker_4534998237a551153bec5ec3765e7ed4.bindTooltip(
+                `<div>
+                     Molefi Kete Asante
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_29bcd37d1937dee725af5f19f0675b3f = L.marker(
+                [38.25, -85.76],
+                {}
+            ).addTo(marker_cluster_7d2e5606b5eb745cf28ec07ee0cf86b4);
+        
+    
+        var popup_5172c7108f7614b3d2b5d44a1f403d63 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_40f5dbf57b41de12029fa5a70acb3ff4 = $(`<div id="html_40f5dbf57b41de12029fa5a70acb3ff4" style="width: 100.0%; height: 100.0%;"><b>bell hooks</b><br><i>EUA</i><br>Referência em interseccionalidade e pedagogia crítica.</div>`)[0];
+            popup_5172c7108f7614b3d2b5d44a1f403d63.setContent(html_40f5dbf57b41de12029fa5a70acb3ff4);
+        
+
+        marker_29bcd37d1937dee725af5f19f0675b3f.bindPopup(popup_5172c7108f7614b3d2b5d44a1f403d63)
+        ;
+
+        
+    
+    
+            marker_29bcd37d1937dee725af5f19f0675b3f.bindTooltip(
+                `<div>
+                     bell hooks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9f7b703d6f33f8ae7720eb59f1833df5 = L.marker(
+                [38.91, -77.03],
+                {}
+            ).addTo(marker_cluster_7d2e5606b5eb745cf28ec07ee0cf86b4);
+        
+    
+        var popup_1a474dd6cca855fc4fef95d508593f06 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_94191d4d438c3d166c7f19f16bbe9574 = $(`<div id="html_94191d4d438c3d166c7f19f16bbe9574" style="width: 100.0%; height: 100.0%;"><b>Patricia Hill Collins</b><br><i>EUA</i><br>Formuladora da matriz de dominação.</div>`)[0];
+            popup_1a474dd6cca855fc4fef95d508593f06.setContent(html_94191d4d438c3d166c7f19f16bbe9574);
+        
+
+        marker_9f7b703d6f33f8ae7720eb59f1833df5.bindPopup(popup_1a474dd6cca855fc4fef95d508593f06)
+        ;
+
+        
+    
+    
+            marker_9f7b703d6f33f8ae7720eb59f1833df5.bindTooltip(
+                `<div>
+                     Patricia Hill Collins
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_64699826aedfd1c147cf3e19a0390d62 = L.marker(
+                [34.05, -118.24],
+                {}
+            ).addTo(marker_cluster_7d2e5606b5eb745cf28ec07ee0cf86b4);
+        
+    
+        var popup_ac99ee8d2af68a6526d36e36120c01f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1ccee457fdf6baae38a4e08bcfea69c4 = $(`<div id="html_1ccee457fdf6baae38a4e08bcfea69c4" style="width: 100.0%; height: 100.0%;"><b>Angela Davis</b><br><i>EUA</i><br>Crítica do sistema prisional e do racismo estrutural.</div>`)[0];
+            popup_ac99ee8d2af68a6526d36e36120c01f4.setContent(html_1ccee457fdf6baae38a4e08bcfea69c4);
+        
+
+        marker_64699826aedfd1c147cf3e19a0390d62.bindPopup(popup_ac99ee8d2af68a6526d36e36120c01f4)
+        ;
+
+        
+    
+    
+            marker_64699826aedfd1c147cf3e19a0390d62.bindTooltip(
+                `<div>
+                     Angela Davis
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7a401e2529d742a7b7b76c6532c95303 = L.marker(
+                [14.61, -61.07],
+                {}
+            ).addTo(marker_cluster_7d2e5606b5eb745cf28ec07ee0cf86b4);
+        
+    
+        var popup_6c4a6f08a170d02cdd019a6a61662382 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_611843537e5db235b54aa805f90ee0de = $(`<div id="html_611843537e5db235b54aa805f90ee0de" style="width: 100.0%; height: 100.0%;"><b>Aimé Césaire</b><br><i>Martinica</i><br>Autor do Discurso sobre o Colonialismo.</div>`)[0];
+            popup_6c4a6f08a170d02cdd019a6a61662382.setContent(html_611843537e5db235b54aa805f90ee0de);
+        
+
+        marker_7a401e2529d742a7b7b76c6532c95303.bindPopup(popup_6c4a6f08a170d02cdd019a6a61662382)
+        ;
+
+        
+    
+    
+            marker_7a401e2529d742a7b7b76c6532c95303.bindTooltip(
+                `<div>
+                     Aimé Césaire
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_69843a038eaa421979da06c370c31592 = L.marker(
+                [18.01, -76.79],
+                {}
+            ).addTo(marker_cluster_7d2e5606b5eb745cf28ec07ee0cf86b4);
+        
+    
+        var popup_02dbcbf3876fe9d8921eeed80ecfa90d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e1c1a5003bf92a9b55e216d388fb08d2 = $(`<div id="html_e1c1a5003bf92a9b55e216d388fb08d2" style="width: 100.0%; height: 100.0%;"><b>Stuart Hall</b><br><i>Jamaica/Reino Unido</i><br>Teórico da identidade e da diáspora negra.</div>`)[0];
+            popup_02dbcbf3876fe9d8921eeed80ecfa90d.setContent(html_e1c1a5003bf92a9b55e216d388fb08d2);
+        
+
+        marker_69843a038eaa421979da06c370c31592.bindPopup(popup_02dbcbf3876fe9d8921eeed80ecfa90d)
+        ;
+
+        
+    
+    
+            marker_69843a038eaa421979da06c370c31592.bindTooltip(
+                `<div>
+                     Stuart Hall
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d473b6838aa50bd987cef01fcb1b0db3 = L.marker(
+                [51.51, -0.13],
+                {}
+            ).addTo(marker_cluster_7d2e5606b5eb745cf28ec07ee0cf86b4);
+        
+    
+        var popup_0e0e8ccbc19e189368576e09db9045ee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a6b1ae004b50fe67d3e46118388f87bb = $(`<div id="html_a6b1ae004b50fe67d3e46118388f87bb" style="width: 100.0%; height: 100.0%;"><b>Paul Gilroy</b><br><i>Reino Unido</i><br>Autor de 'O Atlântico Negro'.</div>`)[0];
+            popup_0e0e8ccbc19e189368576e09db9045ee.setContent(html_a6b1ae004b50fe67d3e46118388f87bb);
+        
+
+        marker_d473b6838aa50bd987cef01fcb1b0db3.bindPopup(popup_0e0e8ccbc19e189368576e09db9045ee)
+        ;
+
+        
+    
+    
+            marker_d473b6838aa50bd987cef01fcb1b0db3.bindTooltip(
+                `<div>
+                     Paul Gilroy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
